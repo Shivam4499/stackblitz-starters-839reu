@@ -1,0 +1,50 @@
+/* Define styles for the entire navbar */
+.navbar {
+  background-color: #3498db;
+  padding: 10px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  width: 100%; /* Make the navbar span the entire width of the screen */
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end */
+  align-items: center;
+}
+
+/* Define styles for the left section within the navbar */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushes the left content to the start of the navbar */
+}
+
+/* Define styles for the header title */
+/* Define styles for the header title */
+.header-title {
+  margin: 0; /* Remove margin to ensure title starts from the edge */
+  font-size: 24px; /* Increase the font size for the title */
+  font-family: 'Helvetica Neue', sans-serif; /* Use Helvetica Neue or a fallback sans-serif font */
+  /* You can add more font-family options here in case the first choice isn't available */
+}
+
+/* Define styles for the right section within the navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Define styles for the button */
+.custom-button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px; /* Add a margin to create a gap on the right */
+}
+
+/* Define the button's hover state style */
+.custom-button:hover {
+  background-color: #20618b;
+}

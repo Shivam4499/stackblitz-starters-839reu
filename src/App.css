@@ -1,0 +1,226 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.market-share-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -26%;
+  margin-bottom: 50px;
+  right: 3%; /* Adjust this value to move more towards the left */
+  position: absolute;
+}
+
+.scrollable-legend {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.dropdown-content div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-content div:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.app-container {
+  height: 100vh;
+  display: block;
+}
+
+.title-container {
+  background-color: #0074d9;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse; /* Add this to reverse the order */
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.chart-container {
+  width: 100%;
+  position: relative;
+  height: 80vh;
+  padding-top: 25%; /* This creates space for the doughnut chart */
+}
+
+/* Define styles for the entire navbar */
+.navbar {
+  background-color: #3498db;
+  padding: 10px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  width: 100%; /* Make the navbar span the entire width of the screen */
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end */
+  align-items: center;
+}
+
+/* Define styles for the left section within the navbar */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushes the left content to the start of the navbar */
+}
+
+/* Define styles for the header title */
+.header-title {
+  margin: 0; /* Remove margin to ensure title starts from the edge */
+  font-size: 24px; /* Increase the font size for the title */
+}
+
+/* Define styles for the right section within the navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Define styles for the button */
+.custom-button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Define the button's hover state style */
+.custom-button:hover {
+  background-color: #20618b;
+}
+/* Define styles for the entire navbar */
+.navbar {
+  background-color: #3498db;
+  padding: 10px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  width: 100%; /* Make the navbar span the entire width of the screen */
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end */
+  align-items: center;
+}
+
+/* Define styles for the left section within the navbar */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushes the left content to the start of the navbar */
+}
+
+/* Define styles for the header title */
+.header-title {
+  margin: 0; /* Remove margin to ensure title starts from the edge */
+  font-size: 24px; /* Increase the font size for the title */
+}
+
+/* Define styles for the right section within the navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Define the button's hover state style */
+.custom-button:hover {
+  background-color: #20618b;
+}
+
+.bar-chart-container {
+  top: 30%;
+  height: 10%; /* Reduce the height by 50% (adjust as needed) */
+  width: 100%;
+  position: relative;
+}
+
+.bar-chart-container canvas {
+  height: 400% !important;
+  width: 100% !important;
+}
+
+.chart-container canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0; /* This ensures the bar chart is at the bottom */
+}
+
+.dropdown {
+  margin-right: 10px;
+}
+
+.occupancy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.occupancy-container span {
+  flex: 0.01;
+  text-align: center;
+  margin-left: -100px;
+  margin-right: -130px;
+}
+
+.occupancy-label {
+  margin-bottom: 10px;
+}
+
+.occupancy-values {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.occupancy-date-value {
+  flex: 1;
+  text-align: center;
+}
+
+.smallDoughnut {
+  max-width: 10%; /* Adjust as needed */
+  height: 5vh; /* Reduced height */
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -65%; /* Reduced top margin */
+  right: 1%;
+}
+
+.market-share-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px; /* Adjust this margin as needed */
+  text-align: center;
+}
